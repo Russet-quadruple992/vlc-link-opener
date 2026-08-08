@@ -1,0 +1,9 @@
+{
+  "name": "com.vlc.open",
+  "description": "Open links in VLC player",
+  "path": "C:\\path\\to\\vlc_host.bat",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://gkpkkdphgennokdhpiadiclfioankpeb/"
+  ]
+}
