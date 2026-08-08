@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Open Link in VLC - ziploot.app",
+  "version": "1.0",
+  "description": "Right click on any media link to play it directly in VLC (Powered by ziploot.app).",
+  "homepage_url": "https://ziploot.app",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": [
+    "contextMenus",
+    "nativeMessaging"
+  ],
+  "action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_popup": "popup.html",
+    "default_title": "VLC Link Opener - ziploot.app"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3/oglfWdE1ebu9hIsybDzBCwqF1/MzV+60rPV+CLW9y0KU5FmEvNkIGM8d/NfaP76w9u4hs9NBF/FWu6wBEeYwBc1YG5W2BgKp0zQe/PHRfQtdrQ8L+A97L7e75uYvC/6bLckkxYXYYk55S9nKiYD7PBPEIAYNwQrkKQt/agDkIyvgTFOYzi8Z2pZJnu8VKRwVd91ODNJLrcK2OAW2Ru0xFHxh48Pmkr9OmpfYqiOUf6ZIE8/sahpXhETMwdtWxuOMbrhYJFTS6JMbDf9pVJ8LtJoOJ41EGakEypNzDH8P2HIVJqmFEAhkr5TXD1uydHZcv/8VVPCW+yiU3rN2wjlwIDAQAB"
+}
