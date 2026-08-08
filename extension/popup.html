@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VLC Link Opener - ziploot.app</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="card">
+    <div class="header">
+      <div class="logo">
+        <img src="icons/icon32.png" width="24" height="24" alt="VLC Icon">
+        <span class="title">VLC Link Opener</span>
+      </div>
+      <span class="badge" id="host-status-badge">Checking...</span>
+    </div>
+
+    <div class="status-box" id="status-box">
+      <div class="status-icon" id="status-icon">🔄</div>
+      <div class="status-details">
+        <h4 id="status-title">Checking Native Host...</h4>
+        <p id="status-desc">Verifying connection to Python backend.</p>
+      </div>
+    </div>
+
+    <div class="actions">
+      <button id="btn-recheck" class="btn btn-primary">
+        <span>🔄 Test Connection</span>
+      </button>
+    </div>
+
+    <div class="guide">
+      <div class="guide-header">How to use:</div>
+      <div class="guide-step">
+        <span class="step-num">1</span>
+        <span>Right-click any video, audio, or media link.</span>
+      </div>
+      <div class="guide-step">
+        <span class="step-num">2</span>
+        <span>Click <strong>"Open with VLC"</strong> in context menu.</span>
+      </div>
+      <div class="guide-step">
+        <span class="step-num">3</span>
+        <span>VLC Media Player opens & streams directly!</span>
+      </div>
+    </div>
+
+    <div class="footer">
+      Powered by <a href="https://ziploot.app" target="_blank" id="brand-link">ziploot.app</a>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
