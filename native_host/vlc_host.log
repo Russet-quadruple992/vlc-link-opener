@@ -1,0 +1,17 @@
+# VLC Host Log File
+2026-08-08 11:41:19 [INFO] VLC Host started.
+2026-08-08 11:41:19 [INFO] Stdin EOF reached (disconnected).
+2026-08-08 11:41:27 [INFO] VLC Host started.
+2026-08-08 11:41:27 [INFO] Stdin EOF reached (disconnected).
+2026-08-08 11:41:29 [INFO] VLC Host started.
+2026-08-08 11:41:29 [INFO] Stdin EOF reached (disconnected).
+2026-08-08 11:41:38 [INFO] VLC Host started.
+2026-08-08 11:41:38 [INFO] Incoming message length: 49 bytes.
+2026-08-08 11:41:38 [INFO] Received raw message: {"url":"http://new.circleftp.net/content/105870"}
+2026-08-08 11:41:38 [INFO] Found VLC at: C:\Program Files\VideoLAN\VLC\vlc.exe
+2026-08-08 11:41:38 [INFO] Launching VLC for URL: http://new.circleftp.net/content/105870
+2026-08-08 11:41:38 [INFO] Attempting to launch VLC...
+2026-08-08 11:41:39 [INFO] VLC successfully launched via os.startfile.
+2026-08-08 11:41:39 [INFO] Sent response: {'status': 'success', 'pid': None}
+2026-08-08 11:43:47 [INFO] VLC Host started.
+2026-08-08 11:43:47 [INFO] Stdin EOF reached (disconnected).
